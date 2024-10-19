@@ -1,0 +1,23 @@
+.backdrop {
+    @apply fixed w-screen h-screen bg-dialog-backdrop z-[100] left-0 top-0;
+}
+
+.dialog {
+    @apply fixed -translate-x-2/4 -translate-y-2/4 z-[101] min-w-[400px] max-w-[90%] shadow-dialog-shadow left-2/4 top-2/4 bg-primary-foreground rounded-md;
+}
+
+.dialog-content {
+    @apply flex flex-col p-5;
+}
+
+.dialog-header {
+    @apply flex justify-between items-center font-[bold] mb-2.5;
+}
+
+.dialog-body {
+    @apply flex-1 mb-2.5;
+}
+
+.dialog-footer {
+    @apply flex mt-5;
+}

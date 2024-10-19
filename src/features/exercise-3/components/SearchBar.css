@@ -1,0 +1,23 @@
+.search-bar-container {
+    @apply w-2/5 flex flex-col items-center min-w-[200px] m-auto m-5 relative;
+}
+
+.input-wrapper {
+    @apply w-full h-10 shadow-[0px_0px_8px_#ddd] bg-[white] flex items-center px-[15px] py-0 rounded-[10px] border-[none];
+}
+
+.results-list {
+    @apply w-full bg-[white] flex flex-col shadow-[0px_0px_8px_#ddd] max-h-[300px] overflow-y-auto mt-12 rounded-[10px] z-10 absolute;
+}
+
+.result {
+    @apply px-5 hover:bg-[#efefef] text-black font-thin cursor-pointer flex;
+}
+
+.input-search-bar {
+    @apply bg-transparent h-full text-xl w-full ml-[5px] border-[none] text-black;
+}
+
+input:focus {
+    outline: none;
+}
